@@ -1,17 +1,16 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="Lineage" fetch="https://github.com/LineageOS" />
-    <remote name="shashank" fetch="https://github.com/theshashankk" />
+    <remote name="theshashankk" fetch="https://github.com/theshashankk" />
 
     <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="Lineage" revision="lineage-23.0" />
     <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="Lineage" revision="lineage-23.0" />
-
-    <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="shashank" revision="fifteen" />
-
-    <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="shashank" revision="fifteen" />
-    <project path="vendor/motorola/rhodep" name="proprietary_vendor_motorola_rhodep" remote="shashank" revision="fifteen" />
-    <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="shashank" revision="fifteen" />
-
-    <project path="hardware/motorola" name="android_hardware_motorola" remote="shashank" revision="fifteen" />
     <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-23.0" />
+
+    <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="theshashankk" revision="lineage-23.0" />
+    <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="theshashankk" revision="lineage-23.0" />
+    <project path="vendor/motorola/rhodep" name="proprietary_vendor_motorola_rhodep" remote="theshashankk" revision="lineage-23.0" />
+    <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="theshashankk" revision="lineage-23.0" />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="theshashankk" revision="lineage-23.0" />
 </manifest>
