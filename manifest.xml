@@ -5,11 +5,13 @@
 
     <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="Lineage" revision="lineage-23.0" />
     <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="Lineage" revision="lineage-23.0" />
-    <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-23.0" />
 
     <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="theshashankk" revision="lineage-23.0" />
     <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="theshashankk" revision="lineage-23.0" />
     <project path="vendor/motorola/rhodep" name="proprietary_vendor_motorola_rhodep" remote="theshashankk" revision="lineage-23.0" />
     <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="theshashankk" revision="lineage-23.0" />
     <project path="hardware/motorola" name="android_hardware_motorola" remote="theshashankk" revision="lineage-23.0" />
+
+    <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="Lineage" revision="lineage-21.0" />
+    <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-21.0" />
 </manifest>
